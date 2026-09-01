@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.vscode/
+data/*.png
+data/*.txt
+!data/.gitkeep
+notes/*.md
+!notes/README.md
