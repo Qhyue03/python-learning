@@ -1,4 +1,4 @@
-# Python 语法最小集（读代码视角）
+dui# Python 语法最小集（读代码视角）
 
 > 用途：做练习时像查字典一样翻。每条 = 可运行的代码 + 输出 + 一句话解释。
 > 学习方法：**先盖住输出猜结果，再运行验证**——猜错的地方就是你的盲区，值得停下来想。
@@ -144,23 +144,23 @@ s = 0
 for i in range(1, 5):
     s += i
 print(s)
-
+1+2+3+4=10
 # 片段2
 w = "yanghui"
 print(w[0:4], len(w))
-
+yang 7#同range（start，stop）类似，左闭右开：包含左边，不包含右边。
 # 片段3
 m = [[1], [1, 1], [1, 2, 1]]
 print(m[2])
 print(m[2][1])
 print(m[-1][-1])
-
+[1,2,1] 1 0 #m[-1][-1])是倒数第一个数
 # 片段4
 def double(x):
     return x * 2
 print(double(double(3)))
 ```
-
+12
 <details>
 <summary>答案（先猜完再展开）</summary>
 
